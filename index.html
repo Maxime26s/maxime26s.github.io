@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        h1,
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .bold {
+            font-weight: 600;
+        }
+
+        .semi-bold {
+            font-weight: 500;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            text-align: justify
+        }
+
+        li {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+
+        .skill {
+            margin-bottom: 2rem;
+        }
+
+        .skill>img {
+            width: auto;
+            height: 12.5rem;
+            margin: auto;
+            display: block
+        }
+
+        .skill>p {
+            margin-top: 1rem;
+        }
+
+        .cards>div {
+            margin-bottom: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Maxime Simard</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks"
+                aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarLinks">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Expériences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacter</a>
+                    </li>
+                </ul>
+                <a role="button" class="btn btn-outline-info my-2 my-lg-0" href="./CV.pdf">Curriculum vitæ</a>
+            </div>
+        </nav>
+    </header>
+    <section style="background: #1f4e78; color:#F0EFEC; margin-top: 56px !important;">
+        <div class="alert alert-danger d-block d-md-none" role="alert">
+            Mon portfolio n'a pas encore été adapté pour l'affichage mobile! Je vous recommande de le regarder sur
+            un ordinateur ou une tablette si possible!
+        </div>
+        <div class="container">
+            <div class="row py-5 mx-auto justify-content-center">
+                <div class="col-lg-4 text-center text-lg-left">
+                    <img class="img-fluid rounded-circle align-self-center" src="./maxime-simard.png"
+                        alt="Maxime Simard" />
+                </div>
+                <div class="col-lg-6 text-center text-lg-left align-self-center">
+                    <h1 class="bold">Maxime Simard</h1>
+                    <h2>Étudiant en Génie Informatique</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" style="background: #F0EFEC; color:#1f4e78">
+        <div class="container">
+            <div class="row pt-5 mx-auto justify-content-center">
+                <h1 class="semi-bold">À propos</h1>
+            </div>
+            <div class="row pt-4 pb-5 mx-auto justify-content-center">
+                <p class="col-10" style="text-align: justify">
+                    Salut! Je suis Maxime Simard, un étudiant en Génie Informatique à l'UQAC! Je suis actuellement à la
+                    quatrième session de mon baccalauréat.
+                </p>
+                <p class="col-10" style="text-align: justify">
+                    Je suis un passionné de programmation qui adore relever des défis. Je m'intéresse à toutes
+                    nouveautés dans ce domaine et tente souvent d'apprendre par moi-même de nouvelles technologies. Ce
+                    que j'aime vraiment, c'est de concevoir des programmes utiles qui automatisent certaines tâches, et
+                    c'est probablement pourquoi j'adore transformer des concepts mathématiques ou physiques en
+                    programme. Le défi de maîtriser ses concepts afin d'ensuite pouvoir les programmer me motive
+                    grandement.
+                </p>
+                <p class="col-10" style="text-align: justify">
+                    Depuis maintenant 3 ans, je participe aussi à chaque session au GameJam de l'UQAC avec mon groupe
+                    d'amis. Nous avons récemment obtenu la première place et le prix du public en octobre 2020, et la
+                    troisième place en mars 2020.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="experiences" class="p-5" style="background: #1f4e78; color:#F0EFEC">
+        <div class="container">
+            <div class="row pt-5 mx-auto justify-content-center">
+                <h1 class="semi-bold">Expériences</h1>
+            </div>
+            <div class="row pt-4 pb-5 mx-auto justify-content-center">
+                <p class="col-10" style="text-align: justify">
+                    Avant d'être à l'UQAC, j'ai fait le programme pré-universitaire "Sciences Informatique et
+                    Mathématiques" où j'ai eu quatre cours de progammation en Java. J'ai ensuite appris le C++ une fois
+                    rendu à l'université, et j'ai un peu touché à Matlab. Ailleurs qu'au travers de mon parcours
+                    scolaire, j'ai eu l'occasion d'apprendre Unity et le C# en participant à 6 GameJam. Je me suis aussi
+                    amusé avec Python, notamment en écrivant des algorithmes de tri et en utilisant les librairies
+                    "FFMPEG" et "Pillow" pour faire du montage photo et vidéo en code. Récemment, j'ai commencé à
+                    m'intéresser au technologies du web, particulièrement React, et j'ai l'intention d'en apprendre plus
+                    au travers des divers projets personnels que je souhaite entreprendre.
+                </p>
+            </div>
+            <h2 class="mx-auto mb-5 justify-content-center" style="text-align: center;">Programmation</h2>
+            <div class="row mx-auto mb-5 pt-5 justify-content-center"
+                style="background: #F0EFEC; color:#1f4e78; border-radius: 15px;">
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/java.svg" />
+                    <p style="text-align: center;">Java</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/c-plus.svg" />
+                    <p style="text-align: center;">C++</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/csharp.svg" />
+                    <p style="text-align: center;">C#</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/python.svg" />
+                    <p style="text-align: center;">Python</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/javascript.svg" />
+                    <p style="text-align: center;">JavaScript</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/react.svg" />
+                    <p style="text-align: center;">React</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/matlab.png" />
+                    <p style="text-align: center;">Matlab</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/vba.png" />
+                    <p style="text-align: center;">VBA</p>
+                </div>
+            </div>
+            <h2 class=" mb-5" style="text-align: center;">Logiciels</h2>
+            <div class="row mx-auto mb-5 pt-5 justify-content-center"
+                style="background: #F0EFEC; color:#1f4e78; border-radius: 15px;">
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/visual-studio.svg" />
+                    <p style="text-align: center;">Visual Studio</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/visual-studio-code.svg" />
+                    <p style="text-align: center;">Visual Studio Code</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/intellij-idea.svg" />
+                    <p style="text-align: center;">Intellij</p>
+                </div>
+                <div class="col-3 skill">
+                    <img class="img-fluid" src="svgs/unity.svg" />
+                    <p style="text-align: center;">Unity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" style="background: #F0EFEC; color:#1f4e78">
+        <div class="container">
+            <div class="row pt-5 mx-auto justify-content-center">
+                <h1 class="semi-bold">Réalisations</h1>
+            </div>
+            <div class="row pt-4 pb-3 mx-auto justify-content-center">
+                <p class="col-10" style="text-align: justify">
+                    J'ai fait plusieurs projets, que ce soit en devoir, en GameJam ou pour moi-même. En voici
+                    quelques-un:
+                </p>
+            </div>
+        </div>
+        <div class="container" style="margin-left: auto; margin-right: auto">
+            <div class="cards row p-5 mx-auto justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            École [JAVA]
+                        </div><img class="card-img-top" src="projets/zephirr.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Simulateur de circuit électrique</h5>
+                            <p class="card-text">Le simulateur de cricuit électrique était mon projet final dans mon
+                                parcours pré-universitaire. En équipe avec Charles Renaud et Simon Belley, nous avons
+                                décidé de concevoir ce programme car son envergure était un défi pour nous. C'était la
+                                première fois que nous devions créer une application sans instruction en plus de devoir
+                                intégré une connaissance scientifique que nous avions appris pendant notre parcours
+                                collégial.</p>
+                            <a role="button" href="https://github.com/JesusMobile44/ProjetFinal/releases/tag/1.0"
+                                class="btn btn-light">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            École [JAVA]
+                        </div>
+                        <img class="card-img-top" src="projets/calculatrice-de-matrices.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculatrice de matrice</h5>
+                            <p class="card-text">La calculatrice de matrice est un programme que j'ai codé lors de ma
+                                3ème session au Cégep. Ce travail final permet d'effectuer plusieurs opérations sur les
+                                matrices de notre choix. Ces-dernières peuvent être écrite dans le programme, mais aussi
+                                importer à l'aide de fichier csv ou xml. Le programme affiche la démarche utilisé suite
+                                à chaque opération.</p>
+                            <a role="button"
+                                href="https://github.com/Maxime26s/Calculatrice-de-Matrices/releases/tag/1.0"
+                                class="btn btn-light">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            Personnel [REACT]
+                        </div><img class="card-img-top" src="projets/calculatrice-de-moment.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculatrice de moment de force en 2D</h5>
+                            <p class="card-text">Cette calculatrice de moment de force a été conçu comme projet
+                                personnel pour faciliter certains calculs dans mon cours "Mécanique de l'ingénieur".
+                                Elle est encore WIP, et je prévois ensuite l'adapter en 3D (puisque c'est la prochaine
+                                matière qui sera abordée dans ce cours!). Les forces qui sont ajoutés par l'utilisateur
+                                sont ensuite illustré sur un graphique afin de pouvoir rapidement vérifier si les
+                                entrées correspondent au problème. L'interface n'est pas la plus intuitive et sera
+                                retravaillée lorsque j'aurai de l'inspiration.</p>
+                            <a role="button" href="https://maxime26s.github.io/calc-moment-force/"
+                                class="btn btn-light">Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            CodeJam [JAVA]
+                        </div><img class="card-img-top" src="projets/codejam-2020.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Assistant de cuisine automatisé</h5>
+                            <p class="card-text">Cette application a été conçue en 48 heures lors du CodeJam de CGI
+                                2020. Elle avait pour but de répondre à une problématique environnementale, avec comme
+                                sujet la domotique. Notre solution: réduire le gaspillage nourriture. Dévelopé par moi,
+                                Charles Renaud, Julien Bergeron et Jean-Christophe Tremblay, cette application permet
+                                d'avoir des alertes pour les dates d'expirations, d'écrire des recettes et de "passer
+                                des commandes" aux épiceries. Une interface client (pour la cuisine) et distributeur
+                                (pour les épiceries) ont été programmée, ainsi qu'un serveur pour permettre la
+                                communication.</p>
+                            <a role="button" href="https://github.com/Maxime26s/CodeJam-CGI-2020/releases/tag/1.0"
+                                class="btn btn-light">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            GameJam [UNITY]
+                        </div><img class="card-img-top" src="projets/temporal-magus.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Temporal Magus</h5>
+                            <p class="card-text">1ère place lors du WonderJam d'automne 2020 de l'UQAC, ainsi que le
+                                prix du public.
+                            </p>
+                            <p class="card-text">Ce jeu a été réalisé en 48 heures par moi, Simon Belley, Charles
+                                Renaud, Jean-Christophe Tremblay, David Ibarzabal, Nicolas Pageau et
+                                Raphaël Dallaire.
+                            </p>
+                            <a role="button" href="https://choccymilk.itch.io/temporal-magus" class="btn btn-light">En
+                                savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            GameJam [UNITY]
+                        </div><img class="card-img-top" src="projets/punch-lord.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Punch Lord</h5>
+                            <p class="card-text">3ème place lors du WonderJam d'hiver 2020 de l'UQAC.
+                            </p>
+                            <p class="card-text">Ce jeu a été réalisé en 48 heures par moi, Simon Belley, Charles
+                                Renaud, Julien Bilodeau, Jean-Christophe Tremblay, David Ibarzabal et Nicolas Pageau.
+                            </p>
+                            <a role="button" href="https://choccymilk.itch.io/punch-lord" class="btn btn-light">En
+                                savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            GameJam [UNITY]
+                        </div><img class="card-img-top" src="projets/beer-rush.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Beer Rush</h5>
+                            <p class="card-text">Réalisé lors du WonderJam d'automne 2019 de l'UQAC.
+                            </p>
+                            <p class="card-text">Ce jeu a été réalisé en 48 heures par moi, Simon Belley, Charles
+                                Renaud, Julien Bilodeau, Jean-Christophe Tremblay, David Ibarzabal et Nicolas Pageau.
+                            </p>
+                            <a role="button" href="https://choccymilk.itch.io/beer-rush" class="btn btn-light">En savoir
+                                plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
+                        <div class="card-header" style="background-color: #10283d;">
+                            GameJam [UNITY]
+                        </div><img class="card-img-top" src="projets/ttu.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">TTU</h5>
+                            <p class="card-text">Réalisé lors du WonderJam d'automne 2019 de l'UQAC.
+                            </p>
+                            <p class="card-text">Ce jeu a été réalisé en 48 heures par moi, Simon Belley, Charles
+                                Renaud, Jean-Christophe Tremblay, David Ibarzabal, Nicolas Pageau et Raphaël Gilbert.
+                            </p>
+                            <a role="button" href="https://choccymilk.itch.io/travel-the-universe"
+                                class="btn btn-light">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="background: #1f4e78; color:#F0EFEC">
+        <div class="container">
+            <div class="row pt-5 mx-auto justify-content-center">
+                <h1 class="semi-bold">Me contacter</h1>
+            </div>
+            <div class="row pt-4 pb-5 mx-auto justify-content-center">
+                <p class="col-10" style="text-align: justify">
+                    Je suis actuellement à la recherche d'un emploi à temps partiel dans le domaine de l'informatique
+                    alors n'hésitez pas à me contacter!
+                </p>
+            </div>
+            <div class="row pb-5 mx-auto justify-content-center">
+                <a role="button" class="btn btn-light text-center col-2 mx-2" href="./CV.pdf"
+                    style="text-align: center;">CV</a>
+                <a role="button" class="btn btn-light text-center col-2 mx-2" href="mailto:maxime.simard8@uqac.ca"
+                    style="text-align: center;">Email</a>
+                <a role="button" class="btn btn-light text-center col-2 mx-2"
+                    href="https://www.linkedin.com/in/maxime-simard-940945198/" style="text-align: center;">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5 pb-3" style="background: #1f4e78; color:#F0EFEC">
+        <p style="text-align: center;">Maxime Simard - maxime.simard8@uqac.ca</p>
+        <p style="text-align: center;">Janvier 2021</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
