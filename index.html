@@ -26,7 +26,6 @@
         p {
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
-            text-align: justify
         }
 
         li {
@@ -39,10 +38,19 @@
         }
 
         .skill>img {
-            width: auto;
-            height: 12.5rem;
-            margin: auto;
-            display: block
+            width: 100%;
+            height: auto;
+            max-width: 10rem;
+            max-height: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+        }
+
+        .rectangle {
+            height: 100% !important;
+            width: auto !important;
         }
 
         .skill>p {
@@ -83,10 +91,12 @@
         </nav>
     </header>
     <section style="background: #1f4e78; color:#F0EFEC; margin-top: 56px !important;">
+        <!--
         <div class="alert alert-danger d-block d-md-none" role="alert">
             Mon portfolio n'a pas encore été adapté pour l'affichage mobile! Je vous recommande de le regarder sur
             un ordinateur ou une tablette si possible!
         </div>
+        -->
         <div class="container">
             <div class="row py-5 mx-auto justify-content-center">
                 <div class="col-lg-4 text-center text-lg-left">
@@ -101,16 +111,16 @@
         </div>
     </section>
     <section id="about" style="background: #F0EFEC; color:#1f4e78">
-        <div class="container">
+        <div class="container mx-auto">
             <div class="row pt-5 mx-auto justify-content-center">
-                <h1 class="semi-bold">À propos</h1>
+                <h1 class="semi-bold col-12 text-center">À propos</h1>
             </div>
             <div class="row pt-4 pb-5 mx-auto justify-content-center">
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     Salut! Je suis Maxime Simard, un étudiant en Génie Informatique à l'UQAC! Je suis actuellement à la
                     quatrième session de mon baccalauréat.
                 </p>
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     Je suis un passionné de programmation qui adore relever des défis. Je m'intéresse à toutes
                     nouveautés dans ce domaine et tente souvent d'apprendre par moi-même de nouvelles technologies. Ce
                     que j'aime vraiment, c'est de concevoir des programmes utiles qui automatisent certaines tâches, et
@@ -118,7 +128,7 @@
                     programme. Le défi de maîtriser ses concepts afin d'ensuite pouvoir les programmer me motive
                     grandement.
                 </p>
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     Depuis maintenant 3 ans, je participe aussi à chaque session au GameJam de l'UQAC avec mon groupe
                     d'amis. Nous avons récemment obtenu la première place et le prix du public en octobre 2020, et la
                     troisième place en mars 2020.
@@ -126,13 +136,13 @@
             </div>
         </div>
     </section>
-    <section id="experiences" class="p-5" style="background: #1f4e78; color:#F0EFEC">
-        <div class="container">
+    <section id="experiences" style="background: #1f4e78; color:#F0EFEC">
+        <div class="container pb-2">
             <div class="row pt-5 mx-auto justify-content-center">
-                <h1 class="semi-bold">Expériences</h1>
+                <h1 class="semi-bold col-12 text-center">Expériences</h1>
             </div>
             <div class="row pt-4 pb-5 mx-auto justify-content-center">
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     Avant d'être à l'UQAC, j'ai fait le programme pré-universitaire "Sciences Informatique et
                     Mathématiques" où j'ai eu quatre cours de progammation en Java. J'ai ensuite appris le C++ une fois
                     rendu à l'université, et j'ai un peu touché à Matlab. Ailleurs qu'au travers de mon parcours
@@ -143,58 +153,60 @@
                     au travers des divers projets personnels que je souhaite entreprendre.
                 </p>
             </div>
+        </div>
+        <div class="container mx-auto px-0 px-md-2 pb-5">
             <h2 class="mx-auto mb-5 justify-content-center" style="text-align: center;">Programmation</h2>
             <div class="row mx-auto mb-5 pt-5 justify-content-center"
                 style="background: #F0EFEC; color:#1f4e78; border-radius: 15px;">
-                <div class="col-3 skill">
-                    <img class="img-fluid" src="svgs/java.svg" />
+                <div class="col-12 col-md-3 skill">
+                    <img class="img-fluid rectangle" src="svgs/java.svg" />
                     <p style="text-align: center;">Java</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/c-plus.svg" />
                     <p style="text-align: center;">C++</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/csharp.svg" />
                     <p style="text-align: center;">C#</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/python.svg" />
                     <p style="text-align: center;">Python</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/javascript.svg" />
                     <p style="text-align: center;">JavaScript</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/react.svg" />
                     <p style="text-align: center;">React</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/matlab.png" />
                     <p style="text-align: center;">Matlab</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/vba.png" />
                     <p style="text-align: center;">VBA</p>
                 </div>
             </div>
             <h2 class=" mb-5" style="text-align: center;">Logiciels</h2>
-            <div class="row mx-auto mb-5 pt-5 justify-content-center"
+            <div class="row mx-auto pt-5 justify-content-center"
                 style="background: #F0EFEC; color:#1f4e78; border-radius: 15px;">
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/visual-studio.svg" />
                     <p style="text-align: center;">Visual Studio</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/visual-studio-code.svg" />
                     <p style="text-align: center;">Visual Studio Code</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/intellij-idea.svg" />
                     <p style="text-align: center;">Intellij</p>
                 </div>
-                <div class="col-3 skill">
+                <div class="col-12 col-md-3 skill">
                     <img class="img-fluid" src="svgs/unity.svg" />
                     <p style="text-align: center;">Unity</p>
                 </div>
@@ -207,15 +219,15 @@
                 <h1 class="semi-bold">Réalisations</h1>
             </div>
             <div class="row pt-4 pb-3 mx-auto justify-content-center">
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     J'ai fait plusieurs projets, que ce soit en devoir, en GameJam ou pour moi-même. En voici
                     quelques-un:
                 </p>
             </div>
         </div>
-        <div class="container" style="margin-left: auto; margin-right: auto">
-            <div class="cards row p-5 mx-auto justify-content-center">
-                <div class="col-12 col-md-6">
+        <div class="container px-0" style="margin-left: auto; margin-right: auto">
+            <div class="cards row mx-auto justify-content-center">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             École [JAVA]
@@ -233,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             École [JAVA]
@@ -252,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             Personnel [REACT]
@@ -271,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             CodeJam [JAVA]
@@ -291,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             GameJam [UNITY]
@@ -310,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             GameJam [UNITY]
@@ -327,7 +339,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             GameJam [UNITY]
@@ -344,7 +356,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-0 px-md-3">
                     <div class="card" style="color: #F0EFEC; background-color: #1f4e78;">
                         <div class="card-header" style="background-color: #10283d;">
                             GameJam [UNITY]
@@ -370,17 +382,17 @@
                 <h1 class="semi-bold">Me contacter</h1>
             </div>
             <div class="row pt-4 pb-5 mx-auto justify-content-center">
-                <p class="col-10" style="text-align: justify">
+                <p class="col-12 col-md-10">
                     Je suis actuellement à la recherche d'un emploi à temps partiel dans le domaine de l'informatique
                     alors n'hésitez pas à me contacter!
                 </p>
             </div>
             <div class="row pb-5 mx-auto justify-content-center">
-                <a role="button" class="btn btn-light text-center col-2 mx-2" href="./CV.pdf"
+                <a role="button" class="btn btn-light text-center mx-2" href="./CV.pdf"
                     style="text-align: center;">CV</a>
-                <a role="button" class="btn btn-light text-center col-2 mx-2" href="mailto:maxime.simard8@uqac.ca"
+                <a role="button" class="btn btn-light text-center mx-2" href="mailto:maxime.simard8@uqac.ca"
                     style="text-align: center;">Email</a>
-                <a role="button" class="btn btn-light text-center col-2 mx-2"
+                <a role="button" class="btn btn-light text-center mx-2"
                     href="https://www.linkedin.com/in/maxime-simard-940945198/" style="text-align: center;">LinkedIn</a>
             </div>
         </div>
