@@ -26,7 +26,7 @@ function App() {
       <Experience id="jobs" title={"Emplois"} experiences={emplois} />
       <Experience
         id="experiences"
-        title={"Experiences"}
+        title={"Expériences"}
         experiences={experiences}
       />
       <Knowledge
