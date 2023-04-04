@@ -15,7 +15,7 @@ function About() {
         }}
       />
       <div className="text-left max-w-xl">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">About Me</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">À propos</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           Bonjour! Je suis Maxime Simard, un passionné de développement logiciel
           et de jeux vidéo. J'ai commencé à m'intéresser à la programmation en
